@@ -1,0 +1,650 @@
+h2, h3, h4, h5, h6 {
+    font-family: 'Monda', sans-serif;
+}
+
+p, div {
+    font-family: 'Monda', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+th, td {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#landing-title {
+    position: absolute;
+    left: 50%;
+}
+
+#landing-title h1 {
+    z-index: 10;
+    position: relative;
+    left: -45%;
+    top: 410px;
+    font-size: 74px;
+    font-family: 'Audiowide', cursive;
+    color: white;
+    opacity: 0.8;
+    letter-spacing: 20px;
+}
+
+#landing-cards {
+    width: 120%;
+    position: absolute;
+    top: 390px;
+    left: 50%;
+    cursor: pointer;
+}
+
+#landing-cards .row {
+    position: relative;
+    left: -50%;
+}
+
+#landing-cards .row .landing-card {
+    opacity: .9;
+}
+
+.landing-card-subtitle {
+    color: white;
+    position: absolute;
+    z-index: 10;
+    padding: 3% 0 0 3%;
+    font-family: 'Monda', cursive;
+    font-size: 16px;
+}
+
+.breadcrumb > .api-breadcrumb + li:before {
+    content: "";
+}
+
+.table-name {
+    width: 150px;
+    overflow-x: auto;
+}
+
+.table-address {
+    width: 40%;
+    overflow-x: auto;
+}
+
+/* Opening Carousel Styling */
+.indexCarousel {
+    position: relative;
+    width: 100%;
+}
+
+.indexCarousel img {
+    width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.indexCarousel h2 {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+    font-family: 'Audiowide', cursive;
+    font-size: 120px;
+}
+
+.indexCarousel h2 span {
+    position: relative;
+    left: -50%;
+    letter-spacing: -1px;
+    padding: 10px;
+    font-family: 'Audiowide', cursive;
+    color: rgb(139, 0, 0);
+}
+
+.indexCarousel h2 span a {
+    color: white;
+}
+
+.indexCarousel h2 span a:hover {
+    color: rgb(139, 0, 0);
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {color: rgb(4, 71, 137);}
+    25%  {color: rgb(26, 188, 156);}
+    50%  {color: rgb(147, 112, 219);}
+    100% {color: rgb(243, 156, 18);}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {color: rgb(4, 71, 137);}
+    25%  {color: rgb(26, 188, 156);}
+    50%  {color: rgb(147, 112, 219);}
+    100% {color: rgb(243, 156, 18);}
+}
+
+.carouselLogin {
+    top: 40%;
+    position: absolute;
+    left: 40%;
+}
+
+.carouselLogin a {
+    position: relative;
+    right: -40%;
+    background: transparent;
+    color: rgb(139, 0, 0);
+    display:inline-block;
+    min-width: 50px;
+    width: 100px;
+    padding: 5px 10px;
+    border: solid 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.carouselLogin a:hover {
+    background-color: white;
+    color: rgb(139, 0, 0);
+    border-color: rgb(139, 0, 0);
+}
+
+.carouselRegister {
+    top: 40%;
+    position: absolute;
+    right: 40%;
+}
+
+.carouselRegister a {
+    position: relative;
+    left: -40%;
+    background: transparent;
+    color: rgb(139, 0, 0);
+    display:inline-block;
+    min-width: 50px;
+    width: 100px;
+    padding: 5px 10px;
+    border: solid 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.carouselRegister a:hover {
+    background-color: white;
+    color: rgb(139, 0, 0);
+    border-color: rgb(139, 0, 0);
+}
+
+.carousel-control { padding-top:10%; width: 5% !important; }
+.carousel-control.left { margin-left: -25px !important; background-image: none !important; color: black; }
+.carousel-control.right { margin-right: -25px !important; background-image: none !important; color: black; }
+
+#overviewMessage {
+	position: fixed;
+	top: 5px;
+	right: 10px;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Georgia;
+}
+
+#status {
+    font-size: 12px;
+    position: fixed;
+    top: 30px;
+    right: 10px;
+}
+
+.error {
+    color: red;
+}
+
+#fbLogoutButton {
+    background-color: rgb(86, 117, 204);
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #57D6C7;
+    cursor: pointer;
+    height: 20px;
+}
+
+#map-canvas {
+    height: 400px;
+}
+
+#wrapper {
+    min-height: 100%;
+}
+
+/* Footer for Main Body */
+#footerTopBorder {    height: 1px;
+    margin-bottom: 20px;
+    border-top: 1px solid #eee;
+}
+
+#footer {
+    position:relative;
+    height: 100px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+#footer p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.visibilityOn {
+    display: block;
+}
+
+.visibilityOff {
+    display: none;
+}
+
+/* Styling for Event Search */
+.typeahead,
+.tt-query,
+.tt-hint {
+    width: 396px;
+    height: 30px;
+    padding: 8px 12px;
+    font-size: 24px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.typeahead {
+    background-color: #fff;
+}
+
+.typeahead:focus {
+    border: 2px solid #0097cf;
+}
+
+.tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+    color: #999;
+}
+
+.tt-dropdown-menu {
+    width: 200px;
+    margin-top: 12px;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+    font-family: serif;
+    padding: 3px 20px;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.tt-suggestion.tt-cursor {
+    color: #fff;
+    background-color: #0097cf;
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+.gist {
+    font-size: 14px;
+}
+
+#sidebar {
+    width: 300px;
+    max-width: 300px;
+}
+
+.navbar-navigation > li > a {
+    display: block;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+    border: 1px solid #e5e5e5;
+}
+
+.navbar-navigation .glyphicon-chevron-right {
+    float: right;
+    margin-top: 2px;
+    margin-right: -6px;
+    opacity: .25;
+}
+
+.navbar-navigation > li > a:hover {
+    color: dodgerblue;
+}
+
+.navbar-navigation a:hover .glyphicon-chevron-right {
+    opacity: .9;
+}
+
+.navbar-navigation .active,
+.navbar-navigation .active a:hover {
+    background-color: rgb(0, 136, 204) !important;
+    color: white !important;
+    opacity: 1;
+}
+
+.navbar-navigation .active .glyphicon-chevron-right,
+.navbar-navigation .active .glyphicon-chevron-right a:hover {
+    background-color: rgb(0, 136, 204) !important;
+    color: white !important;
+    opacity: 1;
+}
+
+.nav-active {
+
+}
+
+.popin {
+     margin: 0 auto;
+     background:#fff;
+     padding: 15px;
+     box-shadow: 0 0 20px #999;
+     border-radius:2px;
+ }
+
+
+.modal-dialog-center {
+    margin-top: 15% !important;
+}
+
+.being-dragged {
+    opacity: .4;
+}
+
+/* Main Application Styling */
+.page-divider-header {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.page-divider-header h1 {
+    font-size: 60px;
+    font-family: 'Audiowide', sans-serif;
+}
+
+.page-divider-header h2 {
+    font-family: 'Audiowide', sans-serif;
+}
+
+#itinerary-header {
+    margin-top: -50px;
+    height: 1000px;
+    width: 100%;
+    background: url("../images/main_city_2.jpg") no-repeat;
+    background-size: 100% 1000px;
+}
+
+#itinerary-header nav {
+    position: absolute;
+    top: 150px;
+    right: 10%;
+    left: 10%;
+}
+
+#itinerary-overview {
+    background-color: rgb(4, 71, 137) !important;
+    margin-top: -70px;
+    width: 100%;
+    overflow-x: hidden;
+    display: none;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+.new-city-media-element {
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 600px;
+    background: url("../images/city.jpg");
+    background-size: 100% 100%;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.new-city-media-element:hover {
+    opacity: .6;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.new-city-media-element h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+}
+
+.new-city-media-element p {
+    color: black;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+}
+
+
+.new-lodging-media-element {
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 600px;
+    background: url("../images/lodging.jpg");
+    background-size: 100% 150%;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Audiowide', cursive;
+}
+
+.new-lodging-media-element:hover {
+    opacity: .6;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.new-lodging-media-element h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+
+.new-lodging-media-element p {
+    text-align: center;
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+
+.new-event-media-element {
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 600px;
+    background: url("../images/event.jpg");
+    background-size: 100% 110%;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Audiowide', cursive;
+}
+
+.new-event-media-element:hover {
+    opacity: .6;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.new-event-media-element h3 {
+    text-align: center;
+    color: white;
+    margin-left: 40px;
+    font-family: 'Audiowide', cursive;
+}
+
+.new-event-media-element p {
+    text-align: center;
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+
+/* Custom Modals for Events, Cities and Lodging Creation */
+
+#eventAjaxModal .modal-content {
+    width: 900px;
+    margin-left: -150px;
+    height: 600px;
+    overflow: scroll;
+}
+
+#eventAjaxModal .modal-title {
+    font-family: 'Audiowide', cursive;
+}
+
+#newCityModal .modal-title {
+    font-family: 'Audiowide', cursive;
+}
+
+.table-wrapper {
+    overflow: auto;
+    width: 100%;
+}
+
+#main-lodging {
+    max-width: 60%;
+}
+
+.ajax-event-form {
+    background-color: white;
+    font-size: 16px;
+}
+
+.ajax-event-form h3, p {
+    padding-left: 20px;
+}
+
+.ajax-event-form div.form-inline {
+    padding-top: 40px;
+}
+
+#event-places-page, #events-tab-btn {
+    background-color: rgb(26, 188, 156) !important;
+    display: none;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+#map-page, #map-tab-btn {
+    background-color: rgb(243, 156, 18) !important;
+    display: none;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+#lodging-page, #lodging-tab-btn {
+    background-color: darkred !important;
+    display: none;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+#budget-page, #budget-tab-btn {
+    background-color: mediumpurple !important;
+    display: none;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+.itinerary-nav-tabs {
+    border:none;
+    outline:0;
+    background:none;
+    width:165px;
+}
+
+hr.hr-title {
+    border: none;
+    height: 4px;
+    background-color: rgb(49, 126, 172);
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.panel {
+    border: none !important;
+}
+
+.pager a, .pager span.current, .pager span.gap {
+    padding: 0 14px;
+    margin-right: 10px;
+    line-height: 38px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #DDD;
+    border-left-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Events and Places Pills */
+.custom-centered-pills { text-align: center; }
+.custom-centered-pills ul.nav-pills { display: inline-block; }
+.custom-centered-pills li { display: inline;  font-weight: bold;}
+.custom-centered-pills h1 { font-family: 'Audiowide', cursive; }
+.center-left { margin-left: 10%; float: left; }
+.center-right { margin-right: 10%; float: right; }
+
+.hideAway {
+    position: absolute;
+    left: -5000px;
+}
+
+.navbar-custom {
+    background-color: #229922;
+    color: white;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-custom a:hover, a:focus {
+    color: rgb(39, 107, 39);
+    background-color: transparent;
+}
+.navbar-custom .navbar-brand {
+    color: white;
+}
